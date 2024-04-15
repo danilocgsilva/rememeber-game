@@ -1,0 +1,6 @@
+CREATE TABLE `terms` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `term` VARCHAR(192) NOT NULL,
+    `options` VARCHAR(192) NOT NULL,
+    PRIMARY KEY (`key`)
+) CHARSET=utf8;
